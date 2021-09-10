@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Header from '../components/Header1';
+import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Explore from '../components/Explore';
 import Banner from '../components/Banner';
@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      {/* 
+
       <main>
         <Hero />
         <Explore />
@@ -22,7 +22,7 @@ export default function Home() {
         <Hosting />
       </main>
 
-      <Footer /> */}
+      <Footer />
     </>
   );
 }
